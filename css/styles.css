@@ -9,6 +9,7 @@
     --cloud: #F4F4FD;
     --navy-blue-modal: #2E2F42;
     --grey: #2E2F42;
+    --grey-translucent: rgba(46, 47, 66, 0.7);
     --white: #FFFFFF;
     --dairy: #FCFCFC;
 }
@@ -159,6 +160,9 @@
     background-color: var(--navy-blue);
     padding: 188px 0;
     justify-content: center;
+    background-image: linear-gradient(var(--grey-translucent)), url(../images/peopleOffice.jpg);
+    background-size: cover;
+    flex-shrink: 0;
 }
 
 .header-third {
@@ -323,4 +327,21 @@
 
 .img-elem {
     width: calc((100% - 48px) / 3);
+}
+
+.values-icon {
+    display:block;
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    background-color: var(--cloud);
+    box-sizing: content-box;
+}
+
+.social-item {
+
+}
+
+.team-links {
+    
 }
