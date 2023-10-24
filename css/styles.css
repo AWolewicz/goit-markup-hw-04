@@ -80,6 +80,7 @@
     background-color: var(--ocean);
     color: var(--white);
     border: 1px solid transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .link {
@@ -160,7 +161,7 @@
     background-color: var(--navy-blue);
     padding: 188px 0;
     justify-content: center;
-    background-image: linear-gradient(var(--grey-translucent)), url(../images/peopleOffice.jpg);
+    background-image: url(./images/peopleOffice.jpg) linear-gradient(var(--grey-translucent));
     background-size: cover;
     flex-shrink: 0;
 }
@@ -260,6 +261,7 @@
 
 .img {
     display: block;
+    gap:32px;
 }
 
 .nav {
@@ -290,8 +292,17 @@
 }
 
 .team-container {
+    width: 100%;
     padding: 32px 0px;
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .foo-block {
@@ -317,6 +328,12 @@
 }
 .portfolio-elements {
     width: calc((100% - 48px) / 3);
+    background-color: var(--white);
+}
+
+.portfolio-elements:hover,
+.portfolio-elements:focus {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .desc-portfolio-element {
