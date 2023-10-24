@@ -243,6 +243,7 @@
     background-color: #FFFFFF;
     width:calc((100%-72px)/4);
     border-radius:0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .paragraph-foo {
@@ -372,7 +373,6 @@
     display:inline;
     height: 40px;
     width: 40px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-links {
@@ -385,6 +385,23 @@
     background-color: var(--iris);
     border-radius:50%;
     gap: 24px;
+}
+
+.foo-team-links {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--cloud);
+    background-color: var(--iris);
+    border-radius: 50%;
+    gap: 24px;
+}
+
+.foo-team-links:hover,
+.foo-team-links:focus {
+    background-color: #31d0aa;
 }
 
 .team-links:hover,
