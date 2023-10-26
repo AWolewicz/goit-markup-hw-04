@@ -451,7 +451,7 @@
 .custom-link:hover,
 .custom-link:focus {
     border-color: #404bbf;
-    fill: #404bbf;
+    color: #404bbf;
 
 }
 
